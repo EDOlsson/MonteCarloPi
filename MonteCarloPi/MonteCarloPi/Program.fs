@@ -1,7 +1,4 @@
-﻿// Learn more about F# at http://fsharp.org
-// See the 'F# Tutorial' project for more help.
-
-open MonteCarlo
+﻿open MonteCarlo
 
 [<EntryPoint>]
 let main argv = 
@@ -14,4 +11,4 @@ let main argv =
 
     System.Console.ReadKey() |> ignore
 
-    0 // return an integer exit code
+    0
